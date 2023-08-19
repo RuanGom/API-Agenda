@@ -1,0 +1,29 @@
+// PUT // http://localhost:5000/contato?id=3&nome=Michel
+// Alterar Nome do contato
+
+// GET //localhost:5000/contato/cadastro?inicio=2022-01-10&fim=2023-04-10
+// Buscar Agendas pelas datas de preferencia
+
+// DELETE //localhost:5000/contato/?id=4
+// Deletar um campo da tabela pelo ID
+
+// GET //localhost:5000/contato/buscar?nome=vini
+// Buscar agenda pelo nome escolhido
+
+// GET //localhost:5000/contato/favoritos
+// Buscar as Agendas marcadas como favoritas
+
+// GET //localhost:5000/contato
+//Listar todas as agendas
+
+// POST //localhost:5000/contato
+//BODY
+{
+  "contato": "Vini",
+  "telefone": "11 98875-6651",
+  "email": "vinivsr@gmail.com",
+  "favorito": 1,
+  "cadastro": "2023-08-18 22:14:33"
+}
+
+//Cadastrar uma nova agenda
